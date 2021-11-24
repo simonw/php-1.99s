@@ -17,3 +17,7 @@ Here's how I created this copy, using code downloaded from https://museum.php.ne
       -m "PHP 1.99s"
     # That set author date but not commit date - this updates that:
     git filter-branch --env-filter 'export GIT_COMMITTER_DATE="$GIT_AUTHOR_DATE"'
+
+Then I added a tag to the commit I had just created using:
+
+    git tag -a v1.99s -m "PHP 1.99s"
