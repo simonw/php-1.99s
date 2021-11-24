@@ -11,6 +11,8 @@ Here's how I created this copy, using code downloaded from https://museum.php.ne
     wget https://museum.php.net/php2/php-1.99s.tar.gz
     tar -xzvf php-1.99s.tar.gz
     # Commit code with date of 31st May 1997
+    git init
+    git add php-1.99s
     git commit \
       --author="PHP History <actions@users.noreply.github.com>" \
       --date="1997-05-31" \
